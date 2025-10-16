@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Add to .gitignore
+echo ".env" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "venv/" >> .gitignore
+echo "*.log" >> .gitignore
