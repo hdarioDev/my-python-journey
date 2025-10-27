@@ -10,6 +10,8 @@
 # Exception es la clase base para la mayoría de las excepciones
 
 # Some Exceptions : TypeError, ValueError, ZeroDivisionError, IndexError, KeyError, FileNotFoundError, ImportError, NameError, AttributeError
+# Else se ejecuta si ninguna exception es capturada
+# Finally se ejecuta siempre, incluso si hay un return
 
 # 1. Basic try-except (with BaseException and Exception)
 try:
